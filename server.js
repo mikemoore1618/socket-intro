@@ -2,7 +2,7 @@ const
   express = require('express'),
   app = express(),
   server = require('http').createServer(app),
-  io =require('socket.io')(server),
+  io = require('socket.io')(server),
   PORT = process.env.PORT || 3000
 
 app.use(express.static('public'))
